@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "last_updated": "2024-12-09T10:00:00Z",
+  "announcements": [
+    {
+      "id": "announcement_tester",
+      "type": "modal",
+      "priority": "high",
+      "title": "Testing in app Announcement!",
+      "message": "test message 1.0",
+      "image_url": null,
+      "cta_text": "Test Link",
+      "cta_action": "dismiss",
+      "show_conditions": {
+        "min_app_version": "1.0.0",
+        "user_segments": ["all"],
+        "start_date": "2024-12-09",
+        "max_shows": 1
+      }
+    }
+  ]
+}
