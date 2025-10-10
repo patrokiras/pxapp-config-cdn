@@ -1,0 +1,19 @@
+# Development files - don't commit to production
+dev-announcements.json.backup
+*.tmp
+*.temp
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Only commit these files:
+# - announcements.json (production)
+# - README.md
+# - DEVELOPMENT.md
+# - start-dev-server.sh
+# - dev-announcements.json (template for development)
