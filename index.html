@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional video footage viewer and proxy converter for filmmakers. Convert ProRes, H.265, and H.264 footage on your iPhone and iPad with hardware-accelerated conversion, LUT support, and anamorphic desqueeze.">
+    <meta name="keywords" content="video converter, proxy converter, ProRes, filmmaker, DIT, H.265, H.264, iOS, iPad, iPhone, video player, footage viewer, LUT, anamorphic, desqueeze, camera footage, mobile video editing, on-set DIT, proxy workflow">
+    <title>Proximator - Camera Footage Converter & Viewer for iPhone & iPad</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://proximator.app/">
+    <meta property="og:title" content="Proximator - Camera Footage Converter & Viewer for iPhone & iPad">
+    <meta property="og:description" content="Professional video footage viewer and proxy converter for filmmakers. Convert ProRes, H.265, and H.264 footage with hardware-accelerated conversion, LUT support, and anamorphic desqueeze.">
+    <meta property="og:image" content="https://proximator.app/img/HeroImage.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://proximator.app/">
+    <meta property="twitter:title" content="Proximator - Camera Footage Converter & Viewer for iPhone & iPad">
+    <meta property="twitter:description" content="Professional video footage viewer and proxy converter for filmmakers. Convert ProRes, H.265, and H.264 footage with hardware-accelerated conversion, LUT support, and anamorphic desqueeze.">
+    <meta property="twitter:image" content="https://proximator.app/img/HeroImage.png">
+
+    <!-- Additional SEO -->
+    <meta name="author" content="Proximator">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" content="https://proximator.app/">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    <meta name="theme-color" content="#00BFA5">
+
+    <!-- App-specific -->
+    <meta name="apple-itunes-app" content="app-id=YOUR_APP_ID">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'proximator-green': '#00BFA5',
+                        'proximator-dark': '#1C1C1E',
+                        'proximator-darker': '#000000',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+    </style>
+
+    <!-- Structured Data (JSON-LD) for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Proximator",
+      "description": "Professional video footage viewer and proxy converter for filmmakers. Convert ProRes, H.265, and H.264 footage on your iPhone and iPad with hardware-accelerated conversion, LUT support, and anamorphic desqueeze.",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "iOS 16.1 or later",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Proximator"
+      },
+      "screenshot": "https://proximator.app/img/HeroImage.png",
+      "featureList": [
+        "Hardware-accelerated video conversion up to 6x realtime speed",
+        "Support for ProRes, H.265, and H.264 codecs",
+        "Real-time LUT preview and application",
+        "Anamorphic desqueeze (1.25x-2.0x)",
+        "Overlay burn-in with timecode and metadata",
+        "Batch conversion processing",
+        "Direct access from USB-C card readers",
+        "8 language support"
+      ],
+      "softwareVersion": "1.0.0",
+      "releaseNotes": "Open Beta Release"
+    }
+    </script>
+</head>
+<body class="bg-proximator-darker text-white">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo group: bottom-aligned mark + smaller wordmark -->
+                <div class="flex h-16 items-center">
+                    <div class="flex items-end gap-2 self-center">
+                        <img src="img/proximator_logo_noBG.png" alt="Proximator mark" class="h-6 md:h-5 w-auto" />
+                        <img src="img/Proximator_fulltextlogo.png" alt="Proximator" class="h-3 md:h-3.5 w-auto opacity-90" />
+                    </div>
+                </div>
+
+                <!-- Right side: Download button only (language moved into hero) -->
+                <div class="flex items-center space-x-3">
+                    <!-- Download Button -->
+                    <!-- TEMPORARILY HIDDEN - App not yet published
+                    <a href="https://apps.apple.com/app/proximator/YOUR_APP_ID" class="bg-proximator-green text-black font-semibold px-3 py-1.5 rounded-lg text-xs md:text-sm hover:bg-opacity-90 transition whitespace-nowrap" data-i18n="cta.downloadnavb">
+                        Download
+                    </a>
+                    -->
+                    <!-- Temporary Coming Soon button -->
+                    <span class="bg-gray-700 text-gray-400 font-semibold px-3 py-1.5 rounded-lg text-xs md:text-sm whitespace-nowrap cursor-not-allowed">
+                        Coming Soon
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sub‑nav language bar (sits right under navbar divider) -->
+    <!-- TEMPORARILY HIDDEN - Will be enabled when app launches with full i18n support
+    <div class="fixed top-16 left-0 right-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-end py-1">
+                <div class="relative inline-flex items-center">
+                    <img src="img/icon/globe.png" alt="language" class="pointer-events-none absolute left-2 top-1/2 -translate-y-1/2 h-3.5 w-3.5 opacity-80" />
+                    <select id="langSelect" class="inline-block w-auto min-w-0 whitespace-nowrap bg-transparent border border-gray-700 text-[11px] md:text-xs text-gray-300 pl-6 pr-5 py-0.5 rounded-lg appearance-none cursor-pointer hover:border-proximator-green transition">
+                        <option value="en">English</option>
+                        <option value="zh">中文(Chinese)</option>
+                        <option value="fr">Français(French)</option>
+                        <option value="de">Deutsch(German)</option>
+                        <option value="es">Español(Spanish)</option>
+                        <option value="ja">日本語(Japanese)</option>
+                        <option value="ko">한국어(Korean)</option>
+                        <option value="ru">Русский(Russian)</option>
+                    </select>
+                    <span class="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-gray-400">▾</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <!-- Hero Section -->
+    <header class="min-h-screen flex items-center justify-center px-4 pt-36 pb-20" role="banner">
+        <div class="w-full max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-[1fr_1.5fr] gap-6 items-center">
+                <!-- Left: Text Content -->
+                <div class="text-center md:text-left md:ml-12">
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight" role="heading" aria-level="1">
+                        <span data-i18n="hero.title1">Camera Footage</span><br>
+                        <span data-i18n="hero.title2">Converter & Player</span><br>
+                        <span class="text-proximator-green" data-i18n="hero.title3Accent">Right on Spot</span>
+                    </h1>
+
+                    <p class="text-sm md:text-base text-gray-400 mb-6 leading-relaxed">
+                        <span data-i18n="hero.p1">Play & Convert camera footage to smaller proxies right on your iPhone/iPad.</span><br>
+                        <span data-i18n="hero.p2">Fast Hardware-accelerated Conversion.</span><br>
+                        <span data-i18n="hero.p3">LUT, Anamorphic De-squeeze, Overlay Burn-in & More.</span>
+                    </p>
+
+                    <!-- CTA Button -->
+                    <!-- TEMPORARILY HIDDEN - App not yet published
+                    <a href="https://apps.apple.com/app/proximator/YOUR_APP_ID" class="inline-block bg-proximator-green text-black font-semibold px-8 py-4 rounded-xl text-lg hover:bg-opacity-90 transition mb-4" data-i18n="cta.download">
+                        Download
+                    </a>
+                    -->
+                    <!-- Temporary Coming Soon button -->
+                    <span class="inline-block bg-gray-700 text-gray-400 font-semibold px-8 py-4 rounded-xl text-lg mb-4 cursor-not-allowed">
+                        Coming Soon
+                    </span>
+
+                    <!-- Badge -->
+                    <p class="text-sm text-gray-500 mt-4" data-i18n="hero.badge">USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta</p>
+                </div>
+
+                <!-- Right: Hero Image -->
+                <div class="flex justify-center md:justify-center md:mr-12">
+                    <img src="img/HeroImage.png" alt="Proximator App Preview" class="w-full">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="py-20 px-4 bg-proximator-dark">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
+                <span data-i18n="features.title1">Feature</span> <span class="text-proximator-green" data-i18n="features.titleAccent">Highlights</span>
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-black bg-opacity-40 p-8 rounded-2xl border border-gray-800">
+                    <img src="img/icon/fast_rocket.png" alt="Hardware Accelerated" class="h-12 w-12 mb-4">
+                    <h3 class="text-2xl font-semibold mb-3" data-i18n="features.f1.title">Hardware Accelerated</h3>
+                    <p class="text-gray-400">
+                        <span data-i18n="features.f1.l1">Convert footage up to</span> <span class="text-proximator-green" data-i18n="features.f1.l1accent">6× realtime</span> <span data-i18n="features.f1.l1b">speed using</span> <span class="text-proximator-green" data-i18n="features.f1.engine">METAL Engine</span>.
+                        <span class="text-gray-500" data-i18n="features.f1.note">(Speed highly depends on hardware, source resolution & codec)</span>
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-black bg-opacity-40 p-8 rounded-2xl border border-gray-800">
+                    <img src="img/icon/3d_lut.png" alt="Export with LUT" class="h-12 w-12 mb-4">
+                    <h3 class="text-2xl font-semibold mb-3" data-i18n="features.f2.title">Export with LUT</h3>
+                    <p class="text-gray-400">
+                        <span data-i18n="features.f2.l1a">Load</span> <span class="text-proximator-green" data-i18n="features.f2.l1accent">.cube LUTs and adjust mix</span>.
+                        <span data-i18n="features.f2.l2">Preview & Export your footage, or grab stills with LUTs.</span>
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-black bg-opacity-40 p-8 rounded-2xl border border-gray-800">
+                    <img src="img/icon/anamorphic.png" alt="Anamorphic Desqueeze" class="h-12 w-12 mb-4">
+                    <h3 class="text-2xl font-semibold mb-3" data-i18n="features.f3.title">Anamorphic Desqueeze</h3>
+                    <p class="text-gray-400">
+                        <span data-i18n="features.f3.l1a">Preview your anamorphic footage with</span> <span class="text-proximator-green" data-i18n="features.f3.l1accent">proper De‑Squeeze (1.25×–2.0×)</span>,
+                        <span data-i18n="features.f3.l2">grab stills with the de‑squeeze applied.</span>
+                    </p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-black bg-opacity-40 p-8 rounded-2xl border border-gray-800">
+                    <img src="img/icon/camera_codec.png" alt="Professional Formats" class="h-12 w-12 mb-4">
+                    <h3 class="text-2xl font-semibold mb-3" data-i18n="features.f4.title">Professional Formats</h3>
+                    <p class="text-gray-400">
+                        <span data-i18n="features.f4.l1a">Support for</span> <span class="text-proximator-green">H.264</span>, <span class="text-proximator-green">H.265</span>, <span data-i18n="features.f4.l1b">and</span> <span class="text-proximator-green">ProRes</span>
+                        <span data-i18n="features.f4.l2a">in</span> <span class="text-proximator-green">MOV</span>, <span class="text-proximator-green">MP4</span>, <span data-i18n="features.f4.l2b">and</span> <span class="text-proximator-green">MXF</span> <span data-i18n="features.f4.note">(convert only).</span>
+                        <span data-i18n="features.f4.l3">Direct file access from card readers.</span>
+                    </p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="bg-black bg-opacity-40 p-8 rounded-2xl border border-gray-800">
+                    <img src="img/icon/info_burnin.png" alt="Overlay Burn-in" class="h-12 w-12 mb-4">
+                    <h3 class="text-2xl font-semibold mb-3" data-i18n="features.f5.title">Overlay Burn‑in</h3>
+                    <p class="text-gray-400">
+                        <span data-i18n="features.f5.l1">Optional burn‑in of key footage info in exports, including:</span>
+                        <span class="text-proximator-green" data-i18n="features.f5.item1">Original Filename</span>,
+                        <span class="text-proximator-green" data-i18n="features.f5.item2">Timecode (Running)</span>,
+                        <span class="text-proximator-green" data-i18n="features.f5.item3">Good‑Take</span>,
+                        <span data-i18n="features.f5.and">and</span>
+                        <span class="text-proximator-green" data-i18n="features.f5.item4">Custom Text Overlay</span>.
+                    </p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="bg-black bg-opacity-40 p-8 rounded-2xl border border-gray-800">
+                    <img src="img/icon/extract_stillframe.png" alt="Stills Extraction" class="h-12 w-12 mb-4">
+                    <h3 class="text-2xl font-semibold mb-3" data-i18n="features.f6.title">Stills Extraction</h3>
+                    <p class="text-gray-400">
+                        <span data-i18n="features.f6.l1a">Grab still images of the</span> <span class="text-proximator-green" data-i18n="features.f6.l1accent">current frame</span>
+                        <span data-i18n="features.f6.l2a">with</span> <span class="text-proximator-green" data-i18n="features.f6.item1">LUTs</span>, <span class="text-proximator-green" data-i18n="features.f6.item2">Anamorphic De‑squeeze</span>
+                        <span data-i18n="features.f6.l3">as you go through footage.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
+                <span data-i18n="usecases.title1">Perfect for</span> <span class="text-proximator-green" data-i18n="usecases.titleAccent">Your Workflow</span>
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <img src="img/icon/plug_and_play.png" alt="Plug & Play" class="h-12 w-12 mb-4 inline-block">
+                    <h3 class="text-xl font-semibold mb-3" data-i18n="usecases.u1.title">Plug & Play</h3>
+                    <p class="text-gray-400">
+                        <span data-i18n="usecases.u1.l1a">Review footage with audio waveform directly from</span> <span class="text-proximator-green" data-i18n="usecases.u1.l1accent">USB‑C card readers</span>,
+                        <span class="text-proximator-green" data-i18n="usecases.u1.l2accent">create proxies without a computer</span>.
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <img src="img/icon/mobile_video_editing.png" alt="Save it on Device" class="h-12 w-12 mb-4 inline-block">
+                    <h3 class="text-xl font-semibold mb-3" data-i18n="usecases.u2.title">Save it on Device</h3>
+                    <p class="text-gray-400">
+                        <span data-i18n="usecases.u2.l1a">Save a</span> <span class="text-proximator-green" data-i18n="usecases.u2.l1accent1">MUCH smaller</span> <span data-i18n="usecases.u2.l1b">version of the footage right on your</span>
+                        <span class="text-proximator-green" data-i18n="usecases.u2.l1accent2">space‑limited mobile device</span>.
+                        <span data-i18n="usecases.u2.l2">Use them for mobile rough cutting, or as final footage for social media.</span>
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <img src="img/icon/team_collaborate.png" alt="Faster Teamwork" class="h-12 w-12 mb-4 inline-block">
+                    <h3 class="text-xl font-semibold mb-3" data-i18n="usecases.u3.title">Faster Teamwork</h3>
+                    <p class="text-gray-400">
+                        <span data-i18n="usecases.u3.l1a">Instantly send proxies with LUTs & Overlay applied to</span> <span class="text-proximator-green" data-i18n="usecases.u3.l1accent">Editor or other collaborators</span>
+                        <span data-i18n="usecases.u3.l2a">during break via</span> <span class="text-proximator-green" data-i18n="usecases.u3.l2accent">AirDrop or cloud storage</span>.
+                        <span data-i18n="usecases.u3.l3">Same‑day edit workflow is now much smoother.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-20 px-4 bg-proximator-dark">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-8">
+                <span data-i18n="pricing.title1">Capable</span> <span class="text-proximator-green" data-i18n="pricing.titleAccent">Free Version.</span>
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-10">
+                <!-- Free Version Card -->
+                <div class="bg-black bg-opacity-40 p-8 md:p-12 rounded-2xl border border-gray-800 text-left">
+                    <h3 class="text-3xl font-bold mb-2 text-center md:text-left" data-i18n="pricing.free.title">Free Version</h3>
+                    <p class="text-gray-400 mb-6 text-center md:text-left" data-i18n="pricing.free.subtitle">Perfect for lightweight proxies</p>
+
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start"><span class="text-proximator-green mr-3">✓</span><span data-i18n="pricing.free.items.unlimited">Unlimited usage (no trial period limit)</span></li>
+                        <li class="flex items-start"><span class="text-proximator-green mr-3">✓</span><span data-i18n="pricing.free.items.builtinLuts">Built‑in LUTs</span></li>
+                        <li class="flex items-start"><span class="text-proximator-green mr-3">✓</span><span data-i18n="pricing.free.items.extractFrames">Extract Frames, Anamorphic De‑squeeze</span></li>
+                        <li class="flex items-start"><span class="text-proximator-green mr-3">✓</span><span data-i18n="pricing.free.items.sdWatermark">SD (960×540) with watermark</span></li>
+                        <li class="flex items-start"><span class="text-proximator-green mr-3">✓</span><span data-i18n="pricing.free.items.batch">Batch Processing</span></li>
+                        <li class="flex items-start"><span class="text-proximator-green mr-3">✓</span><span data-i18n="pricing.free.items.fastAccel">Fast hardware acceleration</span></li>
+                    </ul>
+
+                    <!-- TEMPORARILY HIDDEN - App not yet published
+                    <a href="https://apps.apple.com/app/proximator/YOUR_APP_ID" class="inline-block w-full bg-proximator-green text-black font-semibold px-8 py-4 rounded-xl text-lg hover:bg-opacity-90 transition text-center" data-i18n="cta.download">
+                        Download on AppStore
+                    </a>
+                    -->
+                    <!-- Temporary Coming Soon button -->
+                    <span class="inline-block w-full bg-gray-700 text-gray-400 font-semibold px-8 py-4 rounded-xl text-lg text-center cursor-not-allowed">
+                        Coming Soon
+                    </span>
+                </div>
+
+                <!-- Pro Version Card (overlayed) -->
+                <div class="relative bg-black bg-opacity-40 p-8 md:p-12 rounded-2xl border border-gray-800 text-left">
+                    <h3 class="text-3xl font-bold mb-2 text-center md:text-left" data-i18n="pricing.pro.title">Pro Version</h3>
+                    <p class="text-gray-400 mb-6 text-center md:text-left" data-i18n="pricing.pro.subtitle">For professional uses</p>
+
+                    <ul class="space-y-3 mb-8" id="proFeatures">
+                        <li class="flex items-start"><span class="text-proximator-green mr-3">✓</span><span data-i18n="pricing.pro.items.everythingFree">Everything in the Free version</span></li>
+                        <!-- Plus line to separate Free and Pro items (also keeps CTA heights aligned) -->
+                        <li class="text-white text-2xl md:text-1xl font-bold leading-none mb-1 select-none">+</li>
+                        <li class="flex items-center">
+                            <img src="img/icon/ProBadge.png" alt="Pro" class="h-5 w-auto mr-2">
+                            <span data-i18n="pricing.pro.items.watermarkRemoval">Watermark Removal</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="img/icon/ProBadge.png" alt="Pro" class="h-5 w-auto mr-2">
+                            <span data-i18n="pricing.pro.items.hdUhd">HD &amp; UHD Conversions.</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="img/icon/ProBadge.png" alt="Pro" class="h-5 w-auto mr-2">
+                            <span data-i18n="pricing.pro.items.customLuts">Load Custom LUTs</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="img/icon/ProBadge.png" alt="Pro" class="h-5 w-auto mr-2">
+                            <span data-i18n="pricing.pro.items.future">Future access to new features &amp; codecs</span>
+                        </li>
+                    </ul>
+
+                    <div class="relative">
+                        <button class="inline-block w-full bg-proximator-green text-black font-semibold px-8 py-4 rounded-xl text-lg opacity-90 cursor-not-allowed" data-i18n="pricing.pro.coming">
+                            Coming Soon
+                        </button>
+                    </div>
+
+                    <!-- 60% black overlay -->
+                    <div class="absolute inset-0 bg-black bg-opacity-60 rounded-2xl"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 border-t border-gray-800">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- Column 1 -->
+                <div>
+                    <h4 class="font-semibold mb-4 text-proximator-green">Proximator</h4>
+                    <p class="text-gray-400 text-sm" data-i18n="footer.brand.tagline">
+                        Professional video player & proxy converter built by filmmakers for filmmakers.
+                    </p>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h4 class="font-semibold mb-4" data-i18n="footer.support.title">Support</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="mailto:contact@proximator.app" class="text-gray-400 hover:text-proximator-green transition" data-i18n="footer.support.contact">Contact Developer</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-proximator-green transition" data-i18n="footer.support.privacy">Privacy Policy</a></li>
+                        <!-- <li><a href="https://github.com/yourusername/proximator/issues" class="text-gray-400 hover:text-proximator-green transition" target="_blank">Report an Issue</a></li> -->
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h4 class="font-semibold mb-4">Download</h4>
+                    <a href="https://apps.apple.com/app/proximator/YOUR_APP_ID" class="inline-block">
+                        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" class="h-10">
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-500">
+                <p>&copy; 2025 Proximator. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="i18n/i18n.js" defer></script>
+</body>
+</html>

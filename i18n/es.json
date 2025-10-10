@@ -1,0 +1,125 @@
+{
+  "document": { "title": "Proximator - Convertidor de vídeo profesional (iPhone & iPad)" },
+  "cta": { 
+    "download": "Descargar",
+    "downloadnavb": "Descargar"
+  },
+  "hero": {
+    "title1": "Material de cámara",
+    "title2": "Reproductor y Convertidor",
+    "title3Accent": "En el momento",
+    "p1": "Reproduzca y convierta material de cámara a proxys más pequeños directamente en iPhone/iPad.",
+    "p2": "Conversión rápida con aceleración por hardware.",
+    "p3": "LUT, Desqueeze anamórfico, Overlay burn‑in y más.",
+    "badge": "USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta"
+  },
+  "features": {
+    "title1": "Resumen",
+    "titleAccent": "de funciones",
+    "f1": {
+      "title": "Aceleración por hardware",
+      "l1": "Convierta material hasta",
+      "l1accent": "6× tiempo real",
+      "l1b": "usando el",
+      "engine": "motor METAL",
+      "note": "(La velocidad depende del hardware, resolución fuente y codec)"
+    },
+    "f2": {
+      "title": "Export con LUT",
+      "l1a": "",
+      "l1accent": "Cargue LUTs .cube y ajuste el mix",
+      "l2": "Previsualice y exporte su material, o capture fotogramas con LUTs."
+    },
+    "f3": {
+      "title": "Desqueeze anamórfico",
+      "l1a": "Previsualice su material anamórfico con",
+      "l1accent": "desqueeze correcto (1.25×–2.0×)",
+      "l2": "Capture fotogramas con desqueeze aplicado."
+    },
+    "f4": {
+      "title": "Formatos profesionales",
+      "l1a": "Soporte para",
+      "l1b": "y",
+      "l2a": "en",
+      "l2b": "y",
+      "note": "(solo conversión)",
+      "l3": "Acceso directo a archivos desde lectores de tarjetas."
+    },
+    "f5": {
+      "title": "Overlay burn‑in",
+      "l1": "Burn‑in opcional de información clave del material en exports, incluyendo:",
+      "item1": "Nombre original",
+      "item2": "Timecode (en curso)",
+      "item3": "Favorito",
+      "and": "y",
+      "item4": "Overlay de texto personalizado"
+    },
+    "f6": {
+      "title": "Extracción de fotogramas",
+      "l1a": "Capture fotogramas del",
+      "l1accent": "frame actual",
+      "l2a": "con",
+      "item1": "LUTs",
+      "item2": "Desqueeze anamórfico",
+      "l3": "mientras revisa el material."
+    }
+  },
+  "usecases": {
+    "title1": "Perfecto para",
+    "titleAccent": "tu flujo de trabajo",
+    "u1": {
+      "title": "Plug & Play",
+      "l1a": "Revise material con forma de onda directamente desde",
+      "l1accent": "lectores de tarjetas USB‑C",
+      "l2accent": "cree proxys sin ordenador"
+    },
+    "u2": {
+      "title": "Guardar en dispositivo",
+      "l1a": "Guarde una versión",
+      "l1accent1": "MUCHO más pequeña",
+      "l1b": "del material directamente en su",
+      "l1accent2": "dispositivo móvil con espacio limitado",
+      "l2": "Úselos para montaje rough móvil, o como material final para redes sociales."
+    },
+    "u3": {
+      "title": "Colaboración más rápida",
+      "l1a": "Envíe instantáneamente proxys con LUTs & Overlay a",
+      "l1accent": "editor u otros colaboradores",
+      "l2a": "durante el descanso via",
+      "l2accent": "AirDrop o almacenamiento en la nube",
+      "l3": "El flujo de edición same‑day es ahora mucho más fluido."
+    }
+  },
+  "pricing": {
+    "title1": "Potente",
+    "titleAccent": "versión gratuita.",
+    "free": {
+      "title": "Versión gratuita",
+      "subtitle": "Ideal para proxys ligeros",
+      "items": {
+        "unlimited": "Uso ilimitado (sin período de prueba)",
+        "builtinLuts": "LUTs integradas",
+        "extractFrames": "Extraer fotogramas, Desqueeze anamórfico",
+        "sdWatermark": "SD (960×540) con marca de agua",
+        "batch": "Procesamiento por lotes",
+        "fastAccel": "Aceleración por hardware rápida"
+      }
+    },
+    "pro": {
+      "title": "Versión Pro",
+      "subtitle": "Para uso profesional",
+      "coming": "Próximamente",
+      "items": {
+        "everythingFree": "Todo de la versión gratuita",
+        "watermarkRemoval": "Eliminación de marca de agua",
+        "hdUhd": "Conversiones HD y UHD",
+        "customLuts": "Cargar LUTs personalizadas",
+        "future": "Acceso futuro a nuevas funciones y codecs"
+      }
+    }
+  },
+  "footer": {
+    "brand": { "tagline": "Reproductor de vídeo y convertidor de proxies creado por y para cineastas." },
+    "support": { "title": "Soporte", "contact": "Contactar al desarrollador", "privacy": "Política de privacidad" }
+  }
+}

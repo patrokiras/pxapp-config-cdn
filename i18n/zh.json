@@ -1,0 +1,126 @@
+{
+  "document": { "title": "Proximator - 专业级视频转换器（iPhone & iPad）" },
+  "cta": { 
+    "download": " App Store 下载",
+    "downloadnavb": "下载"
+   },
+  "hero": {
+    "title1": "相机素材",
+    "title2": "播放器与转码器",
+    "title3Accent": "即刻就地",
+    "p1": "在 iPhone/iPad 上直接播放并转换相机素材，用更小的代理素材移动剪辑或快速传输。",
+    "p2": "METAL加持的硬件加速转换。",
+    "p3": "LUT、变宽还原、信息烧录等更多功能。",
+    "badge": "USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta"
+  },
+  "features": {
+    "title1": "功能",
+    "titleAccent": "亮点",
+    "f1": {
+      "title": "硬件加速",
+      "l1": "转换素材最高可达",
+      "l1accent": "6× 实时速度",
+      "l1b": "，基于",
+      "engine": "METAL 引擎",
+      "note": "(速度与设备性能、素材分辨率与编码有关)"
+    },
+    "f2": {
+      "title": "携带 LUT 导出",
+      "l1a": "加载",
+      "l1accent": ".cube LUT 并可调节混合比例",
+      "l2": "可预览与导出成片，或抓取静帧并套用 LUT。"
+    },
+    "f3": {
+      "title": "变宽还原",
+      "l1a": "预览变形镜头素材，支持",
+      "l1accent": "精确 De‑Squeeze（1.25×–2.0×）",
+      "l2": "抓取静帧时同样应用还原。"
+    },
+    "f4": {
+      "title": "专业格式",
+      "l1a": "支持",
+      "l1b": "以及",
+      "l2a": "容器",
+      "l2b": "与",
+      "note": "（MXF 仅转换）",
+      "l3": "可直接从读卡器访问文件。"
+    },
+    "f5": {
+      "title": "信息烧录",
+      "l1": "导出时可选烧录关键素材信息，包括：",
+      "item1": "原始文件名",
+      "item2": "运行时间码",
+      "item3": "好镜头",
+      "and": "以及",
+      "item4": "自定义文字覆盖"
+    },
+    "f6": {
+      "title": "静帧导出",
+      "l1a": "抓取",
+      "l1accent": "当前帧",
+      "l2a": "并应用",
+      "item1": "LUT",
+      "item2": "变宽还原",
+      "l3": "在浏览素材的同时快速保存。"
+    }
+  },
+  "usecases": {
+    "title1": "完美适配",
+    "titleAccent": "你的工作流",
+    "u1": {
+      "title": "即插即用",
+      "l1a": "可直接从",
+      "l1accent": "USB‑C 读卡器",
+      "l2accent": "无需电脑即可创建代理"
+    },
+    "u2": {
+      "title": "保存在设备上",
+      "l1a": "将素材保存为",
+      "l1accent1": "小得多",
+      "l1b": "的版本到你的",
+      "l1accent2": "存储受限的移动设备",
+      "l2": "用于移动端粗剪，或作为社媒最终成片。"
+    },
+    "u3": {
+      "title": "更快的协作",
+      "l1a": "休息间隙即可将带 LUT 与信息覆盖的代理发送给",
+      "l1accent": "剪辑师或其他协作者",
+      "l2a": "通过",
+      "l2accent": "AirDrop 或云存储",
+      "l3": "同日剪辑工作流更加顺畅。"
+    }
+  },
+  "pricing": {
+    "title1": "强大的",
+    "titleAccent": "免费版本。",
+    "free": {
+      "title": "免费版",
+      "subtitle": "适合轻量级代理",
+      "items": {
+        "unlimited": "不限次数使用（无试用期限制）",
+        "builtinLuts": "内置 LUT",
+        "extractFrames": "导出静帧、变宽还原",
+        "sdWatermark": "SD（960×540）带水印",
+        "batch": "批量处理",
+        "fastAccel": "硬件加速高效转换"
+      }
+    },
+    "pro": {
+      "title": "专业版",
+      "subtitle": "面向专业用途",
+      "coming": "敬请期待",
+      "items": {
+        "everythingFree": "包含免费版全部功能",
+        "watermarkRemoval": "移除水印",
+        "hdUhd": "HD 与 UHD 转换",
+        "customLuts": "加载自定义 LUT",
+        "future": "后续新功能与编解码器优先使用"
+      }
+    }
+  },
+  "footer": {
+    "brand": { "tagline": "为影视创作而生的专业视频播放器与代理转换器。" },
+    "support": { "title": "支持", "contact": "联系开发者", "privacy": "隐私政策" }
+  }
+}
+

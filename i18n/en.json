@@ -1,0 +1,124 @@
+{
+  "document": { "title": "Proximator - Professional Video Converter for iPhone & iPad" },
+  "cta": { "download": "Download", "downloadnavb": "Download" },
+  "hero": {
+    "title1": "Camera Footage",
+    "title2": "Converter & Player",
+    "title3Accent": "Right on Spot",
+    "p1": "Play & convert camera footage to smaller proxies right on your iPhone/iPad.",
+    "p2": "Fast hardware‑accelerated conversion.",
+    "p3": "LUT, Anamorphic De‑squeeze, Overlay Burn‑in & more.",
+    "badge": "USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta"
+  },
+  "features": {
+    "title1": "Feature",
+    "titleAccent": "Highlights",
+    "f1": {
+      "title": "Hardware Accelerated",
+      "l1": "Convert footage up to",
+      "l1accent": "6× realtime",
+      "l1b": "speed using",
+      "engine": "METAL Engine",
+      "note": "(Speed highly depends on hardware, source resolution & codec)"
+    },
+    "f2": {
+      "title": "Export with LUT",
+      "l1a": "Load",
+      "l1accent": ".cube LUTs and adjust mix",
+      "l2": "Preview & export your footage, or grab stills with LUTs."
+    },
+    "f3": {
+      "title": "Anamorphic Desqueeze",
+      "l1a": "Preview your anamorphic footage with",
+      "l1accent": "proper De‑Squeeze (1.25×–2.0×)",
+      "l2": "Grab stills with the de‑squeeze applied."
+    },
+    "f4": {
+      "title": "Professional Formats",
+      "l1a": "Support for",
+      "l1b": "and",
+      "l2a": "in",
+      "l2b": "and",
+      "note": "(convert only)",
+      "l3": "Direct file access from card readers."
+    },
+    "f5": {
+      "title": "Overlay Burn‑in",
+      "l1": "Optional burn‑in of key footage info in exports, including:",
+      "item1": "Original Filename",
+      "item2": "Timecode (Running)",
+      "item3": "Good‑Take",
+      "and": "and",
+      "item4": "Custom Text Overlay"
+    },
+    "f6": {
+      "title": "Stills Extraction",
+      "l1a": "Grab still images of the",
+      "l1accent": "current frame",
+      "l2a": "with",
+      "item1": "LUTs",
+      "item2": "Anamorphic De‑squeeze",
+      "l3": "as you go through footage."
+    }
+  },
+  "usecases": {
+    "title1": "Perfect for",
+    "titleAccent": "Your Workflow",
+    "u1": {
+      "title": "Plug & Play",
+      "l1a": "Review footage with audio waveform directly from",
+      "l1accent": "USB‑C card readers",
+      "l2accent": "create proxies without a computer"
+    },
+    "u2": {
+      "title": "Save it on Device",
+      "l1a": "Save a",
+      "l1accent1": "MUCH smaller",
+      "l1b": "version of the footage right on your",
+      "l1accent2": "space‑limited mobile device",
+      "l2": "Use them for mobile rough cutting, or as final footage for social media."
+    },
+    "u3": {
+      "title": "Faster Teamwork",
+      "l1a": "Instantly send proxies with LUTs & Overlay applied to",
+      "l1accent": "Editor or other collaborators",
+      "l2a": "during break via",
+      "l2accent": "AirDrop or cloud storage",
+      "l3": "Same‑day edit workflow is now much smoother."
+    }
+  },
+  "pricing": {
+    "title1": "Capable",
+    "titleAccent": "Free Version.",
+    "free": {
+      "title": "Free Version",
+      "subtitle": "Perfect for lightweight proxies",
+      "items": {
+        "unlimited": "Unlimited usage (no trial period limit)",
+        "builtinLuts": "Built‑in LUTs",
+        "extractFrames": "Extract Frames, Anamorphic De‑squeeze",
+        "sdWatermark": "SD (960×540) with watermark",
+        "batch": "Batch Processing",
+        "fastAccel": "Fast hardware acceleration"
+      }
+    },
+    "pro": {
+      "title": "Pro Version",
+      "subtitle": "For professional uses",
+      "coming": "Coming Soon",
+      "items": {
+        "everythingFree": "Everything in the Free version",
+        "watermarkRemoval": "Watermark Removal",
+        "hdUhd": "HD & UHD Conversions.",
+        "customLuts": "Load Custom LUTs",
+        "future": "Future access to new features & codecs"
+      }
+    }
+  },
+  "footer": {
+    "brand": { "tagline": "Professional video player & proxy converter built by filmmakers for filmmakers." },
+    "support": { "title": "Support", "contact": "Contact Developer", "privacy": "Privacy Policy" }
+  }
+}
+
+
