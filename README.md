@@ -19,17 +19,12 @@ This repository hosts the announcement configuration for the Proximator app.
 
 ## App Store URL Configuration
 
-**Important**: Before publishing, update the App Store URL in the app code:
+**App is now LIVE!**
 
-**File**: `lib/services/announcement_checker.dart`
-**Line**: ~126
-**Current**: `https://apps.apple.com/app/proximator/id[YOUR_APP_ID]`
-**Update to**: `https://apps.apple.com/app/proximator/id1234567890` (your actual app ID)
+**App Store URL**: `https://apps.apple.com/ca/app/proximator/id6745190510`
+**App ID**: `6745190510`
 
-### How to Get Your App Store URL:
-1. **After App Store submission** → Get your app ID from App Store Connect
-2. **URL format**: `https://apps.apple.com/app/proximator/id[YOUR_APP_ID]`
-3. **Update the code** with your real URL
+The app is published and available for download. The Canadian App Store link (`/ca/`) works globally - Apple automatically redirects users to their local App Store based on their region.
 
 ## Example Announcement Types
 

@@ -1,5 +1,6 @@
 (() => {
-  const SUPPORTED = ['en', 'zh', 'fr', 'de', 'es', 'ja', 'ko', 'ru'];
+  const SUPPORTED = ['en', 'zh', 'fr', 'de', 'es', 'ja', 'ko', 'ru', 'pt', 'tr', 'it', 'ar'];
+  const RTL_LANGUAGES = ['ar']; // Right-to-left languages
   const STORAGE_KEY = 'site_lang';
 
   function getInitialLang() {
@@ -59,6 +60,9 @@
     if (!SUPPORTED.includes(lang)) lang = 'en';
     localStorage.setItem(STORAGE_KEY, lang);
     document.documentElement.setAttribute('lang', lang);
+    // Set text direction based on language
+    const dir = RTL_LANGUAGES.includes(lang) ? 'rtl' : 'ltr';
+    document.documentElement.setAttribute('dir', dir);
     // Load English baseline then overlay selected language for reliable fallback
     const base = await loadDict('en');
     const overlay = lang === 'en' ? {} : await loadDict(lang);

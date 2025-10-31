@@ -8,7 +8,7 @@
     "p1": "Play & convert camera footage to smaller proxies right on your iPhone/iPad.",
     "p2": "Fast hardware‑accelerated conversion.",
     "p3": "LUT, Anamorphic De‑squeeze, Overlay Burn‑in & more.",
-    "badge": "USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta"
+    "badge": " iPhone & iPad ·  iOS 16.1+ | Open Beta"
   },
   "features": {
     "title1": "Feature",
@@ -67,7 +67,7 @@
     "u1": {
       "title": "Plug & Play",
       "l1a": "Review footage with audio waveform directly from",
-      "l1accent": "USB‑C card readers",
+      "l1accent": "card-readers/SSD (USB-C Recommended)",
       "l2accent": "create proxies without a computer"
     },
     "u2": {
@@ -108,10 +108,10 @@
       "coming": "Coming Soon",
       "items": {
         "everythingFree": "Everything in the Free version",
-        "watermarkRemoval": "Watermark Removal",
+        "watermarkRemoval": "Remove/Add custom Watermark",
         "hdUhd": "HD & UHD Conversions.",
         "customLuts": "Load Custom LUTs",
-        "future": "Future access to new features & codecs"
+        "future": "One-time purchase, no subscriptions."
       }
     }
   },

@@ -11,7 +11,7 @@
     "p1": "在 iPhone/iPad 上直接播放并转换相机素材，用更小的代理素材移动剪辑或快速传输。",
     "p2": "METAL加持的硬件加速转换。",
     "p3": "LUT、变宽还原、信息烧录等更多功能。",
-    "badge": "USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta"
+    "badge": "iPhone & iPad ·  iOS 16.1+ | Open Beta"
   },
   "features": {
     "title1": "功能",
@@ -70,7 +70,7 @@
     "u1": {
       "title": "即插即用",
       "l1a": "可直接从",
-      "l1accent": "USB‑C 读卡器",
+      "l1accent": "读卡器/固态硬盘（推荐 USB-C）",
       "l2accent": "无需电脑即可创建代理"
     },
     "u2": {
@@ -111,10 +111,10 @@
       "coming": "敬请期待",
       "items": {
         "everythingFree": "包含免费版全部功能",
-        "watermarkRemoval": "移除水印",
+        "watermarkRemoval": "移除/添加自定义水印",
         "hdUhd": "HD 与 UHD 转换",
         "customLuts": "加载自定义 LUT",
-        "future": "后续新功能与编解码器优先使用"
+        "future": "一次性购买，无订阅。"
       }
     }
   },

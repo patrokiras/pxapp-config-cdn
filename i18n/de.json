@@ -11,7 +11,7 @@
     "p1": "Spielen Sie Kameramaterial ab und konvertieren Sie es direkt auf iPhone/iPad zu kleineren Proxys.",
     "p2": "Schnelle hardwarebeschleunigte Konvertierung.",
     "p3": "LUT, Anamorphisch Desqueeze, Overlay Burn‑in & mehr.",
-    "badge": "USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta"
+    "badge": "iPhone & iPad ·  iOS 16.1+ | Open Beta"
   },
   "features": {
     "title1": "Feature",
@@ -70,7 +70,7 @@
     "u1": {
       "title": "Plug & Play",
       "l1a": "Material mit Wellenform direkt von",
-      "l1accent": "USB‑C Kartenlesern",
+      "l1accent": "Kartenlesern/SSD (USB-C empfohlen)",
       "l2accent": "überprüfen, Proxys ohne Computer erstellen"
     },
     "u2": {

@@ -11,7 +11,7 @@
     "p1": "Lisez et convertissez les clips caméra en proxys plus petits directement sur iPhone/iPad.",
     "p2": "Conversion rapide avec accélération matérielle.",
     "p3": "LUT, Désqueeze anamorphique, Overlay burn‑in & plus.",
-    "badge": "USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta"
+    "badge": "iPhone & iPad ·  iOS 16.1+ | Open Beta"
   },
   "features": {
     "title1": "Aperçu",
@@ -70,7 +70,7 @@
     "u1": {
       "title": "Plug & Play",
       "l1a": "Examinez les clips avec forme d'onde directement depuis",
-      "l1accent": "lecteurs de cartes USB‑C",
+      "l1accent": "lecteurs de cartes/SSD (USB-C recommandé)",
       "l2accent": "créez des proxys sans ordinateur"
     },
     "u2": {
@@ -111,7 +111,7 @@
       "coming": "Bientôt disponible",
       "items": {
         "everythingFree": "Tout de la version gratuite",
-        "watermarkRemoval": "Suppression du filigrane",
+        "watermarkRemoval": "Supprimer/ajouter un filigrane",
         "hdUhd": "Conversions HD & UHD",
         "customLuts": "Charger des LUTs personnalisées",
         "future": "Accès futur aux nouvelles fonctionnalités & codecs"

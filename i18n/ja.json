@@ -11,7 +11,7 @@
     "p1": "iPhone/iPad で直接カメラ素材を再生・変換。より小さなプロキシで移動編集や高速転送。",
     "p2": "METAL エンジンによる高速ハードウェアアクセラレーション。",
     "p3": "LUT、アナモルフィック・デスクイーズ、情報焼き込みなど多数。",
-    "badge": "USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta"
+    "badge": "iPhone & iPad ·  iOS 16.1+ | Open Beta"
   },
   "features": {
     "title1": "機能",
@@ -70,7 +70,7 @@
     "u1": {
       "title": "即接続・即再生",
       "l1a": "波形表示付きで",
-      "l1accent": "USB‑C カードリーダー",
+      "l1accent": "カードリーダー/SSD（USB-C 推奨）",
       "l2accent": "からの素材を直接レビュー、パソコン不要でプロキシ作成"
     },
     "u2": {
@@ -111,10 +111,10 @@
       "coming": "近日公開",
       "items": {
         "everythingFree": "無料版すべての機能",
-        "watermarkRemoval": "透かし除去",
+        "watermarkRemoval": "透かし除去/カスタム透かし追加",
         "hdUhd": "HD ＆ UHD 変換",
         "customLuts": "カスタム LUT 読み込み",
-        "future": "今後の新機能とコーデックへの優先アクセス"
+        "future": "買い切り、サブスクなし。"
       }
     }
   },

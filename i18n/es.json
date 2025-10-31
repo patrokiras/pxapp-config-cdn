@@ -11,7 +11,7 @@
     "p1": "Reproduzca y convierta material de cámara a proxys más pequeños directamente en iPhone/iPad.",
     "p2": "Conversión rápida con aceleración por hardware.",
     "p3": "LUT, Desqueeze anamórfico, Overlay burn‑in y más.",
-    "badge": "USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta"
+    "badge": "iPhone & iPad ·  iOS 16.1+ | Open Beta"
   },
   "features": {
     "title1": "Resumen",
@@ -70,7 +70,7 @@
     "u1": {
       "title": "Plug & Play",
       "l1a": "Revise material con forma de onda directamente desde",
-      "l1accent": "lectores de tarjetas USB‑C",
+      "l1accent": "lectores de tarjetas/SSD (USB-C recomendado)",
       "l2accent": "cree proxys sin ordenador"
     },
     "u2": {
@@ -111,7 +111,7 @@
       "coming": "Próximamente",
       "items": {
         "everythingFree": "Todo de la versión gratuita",
-        "watermarkRemoval": "Eliminación de marca de agua",
+        "watermarkRemoval": "Eliminar/añadir marca de agua",
         "hdUhd": "Conversiones HD y UHD",
         "customLuts": "Cargar LUTs personalizadas",
         "future": "Acceso futuro a nuevas funciones y codecs"

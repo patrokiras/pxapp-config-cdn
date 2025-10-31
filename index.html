@@ -29,7 +29,7 @@
     <meta name="theme-color" content="#00BFA5">
 
     <!-- App-specific -->
-    <meta name="apple-itunes-app" content="app-id=YOUR_APP_ID">
+    <meta name="apple-itunes-app" content="app-id=6745190510">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
@@ -89,7 +89,7 @@
         "Overlay burn-in with timecode and metadata",
         "Batch conversion processing",
         "Direct access from USB-C card readers",
-        "8 language support"
+        "12 language support"
       ],
       "softwareVersion": "1.0.0",
       "releaseNotes": "Open Beta Release"
@@ -104,24 +104,18 @@
             <div class="flex items-center justify-between h-16">
                 <!-- Logo group: bottom-aligned mark + smaller wordmark -->
                 <div class="flex h-16 items-center">
-                    <div class="flex items-end gap-2 self-center">
+                    <a href="#" class="flex items-end gap-2 self-center hover:opacity-80 transition cursor-pointer">
                         <img src="img/proximator_logo_noBG.png" alt="Proximator mark" class="h-6 md:h-5 w-auto" />
                         <img src="img/Proximator_fulltextlogo.png" alt="Proximator" class="h-3 md:h-3.5 w-auto opacity-90" />
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Right side: Download button only (language moved into hero) -->
                 <div class="flex items-center space-x-3">
                     <!-- Download Button -->
-                    <!-- TEMPORARILY HIDDEN - App not yet published
-                    <a href="https://apps.apple.com/app/proximator/YOUR_APP_ID" class="bg-proximator-green text-black font-semibold px-3 py-1.5 rounded-lg text-xs md:text-sm hover:bg-opacity-90 transition whitespace-nowrap" data-i18n="cta.downloadnavb">
+                    <a href="https://apps.apple.com/ca/app/proximator/id6745190510" class="bg-proximator-green text-black font-semibold px-3 py-1.5 rounded-lg text-xs md:text-sm hover:bg-opacity-90 transition whitespace-nowrap" data-i18n="cta.downloadnavb">
                         Download
                     </a>
-                    -->
-                    <!-- Temporary Coming Soon button -->
-                    <span class="bg-gray-700 text-gray-400 font-semibold px-3 py-1.5 rounded-lg text-xs md:text-sm whitespace-nowrap cursor-not-allowed">
-                        Coming Soon
-                    </span>
                 </div>
             </div>
         </div>
@@ -142,6 +136,10 @@
                         <option value="ja">日本語(Japanese)</option>
                         <option value="ko">한국어(Korean)</option>
                         <option value="ru">Русский(Russian)</option>
+                        <option value="pt">Português(Portuguese)</option>
+                        <option value="tr">Türkçe(Turkish)</option>
+                        <option value="it">Italiano(Italian)</option>
+                        <option value="ar">العربية(Arabic)</option>
                     </select>
                     <span class="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-gray-400">▾</span>
                 </div>
@@ -168,15 +166,9 @@
                     </p>
 
                     <!-- CTA Button -->
-                    <!-- TEMPORARILY HIDDEN - App not yet published
-                    <a href="https://apps.apple.com/app/proximator/YOUR_APP_ID" class="inline-block bg-proximator-green text-black font-semibold px-8 py-4 rounded-xl text-lg hover:bg-opacity-90 transition mb-4" data-i18n="cta.download">
+                    <a href="https://apps.apple.com/ca/app/proximator/id6745190510" class="inline-block bg-proximator-green text-black font-semibold px-8 py-4 rounded-xl text-lg hover:bg-opacity-90 transition mb-4" data-i18n="cta.download">
                         Download
                     </a>
-                    -->
-                    <!-- Temporary Coming Soon button -->
-                    <span class="inline-block bg-gray-700 text-gray-400 font-semibold px-8 py-4 rounded-xl text-lg mb-4 cursor-not-allowed">
-                        Coming Soon
-                    </span>
 
                     <!-- Badge -->
                     <p class="text-sm text-gray-500 mt-4" data-i18n="hero.badge">USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta</p>
@@ -329,19 +321,13 @@
                         <li class="flex items-start"><span class="text-proximator-green mr-3">✓</span><span data-i18n="pricing.free.items.fastAccel">Fast hardware acceleration</span></li>
                     </ul>
 
-                    <!-- TEMPORARILY HIDDEN - App not yet published
-                    <a href="https://apps.apple.com/app/proximator/YOUR_APP_ID" class="inline-block w-full bg-proximator-green text-black font-semibold px-8 py-4 rounded-xl text-lg hover:bg-opacity-90 transition text-center" data-i18n="cta.download">
+                    <a href="https://apps.apple.com/ca/app/proximator/id6745190510" class="inline-block w-full bg-proximator-green text-black font-semibold px-8 py-4 rounded-xl text-lg hover:bg-opacity-90 transition text-center" data-i18n="cta.download">
                         Download on AppStore
                     </a>
-                    -->
-                    <!-- Temporary Coming Soon button -->
-                    <span class="inline-block w-full bg-gray-700 text-gray-400 font-semibold px-8 py-4 rounded-xl text-lg text-center cursor-not-allowed">
-                        Coming Soon
-                    </span>
                 </div>
 
-                <!-- Pro Version Card (overlayed) -->
-                <div class="relative bg-black bg-opacity-40 p-8 md:p-12 rounded-2xl border border-gray-800 text-left">
+                <!-- Pro Version Card -->
+                <div class="bg-black bg-opacity-40 p-8 md:p-12 rounded-2xl border border-gray-800 text-left">
                     <h3 class="text-3xl font-bold mb-2 text-center md:text-left" data-i18n="pricing.pro.title">Pro Version</h3>
                     <p class="text-gray-400 mb-6 text-center md:text-left" data-i18n="pricing.pro.subtitle">For professional uses</p>
 
@@ -367,14 +353,9 @@
                         </li>
                     </ul>
 
-                    <div class="relative">
-                        <button class="inline-block w-full bg-proximator-green text-black font-semibold px-8 py-4 rounded-xl text-lg opacity-90 cursor-not-allowed" data-i18n="pricing.pro.coming">
-                            Coming Soon
-                        </button>
-                    </div>
-
-                    <!-- 60% black overlay -->
-                    <div class="absolute inset-0 bg-black bg-opacity-60 rounded-2xl"></div>
+                    <a href="https://apps.apple.com/ca/app/proximator/id6745190510" class="inline-block w-full bg-proximator-green text-black font-semibold px-8 py-4 rounded-xl text-lg hover:bg-opacity-90 transition text-center" data-i18n="cta.download">
+                        Download on AppStore
+                    </a>
                 </div>
             </div>
         </div>
@@ -405,7 +386,7 @@
                 <!-- Column 3 -->
                 <div>
                     <h4 class="font-semibold mb-4">Download</h4>
-                    <a href="https://apps.apple.com/app/proximator/YOUR_APP_ID" class="inline-block">
+                    <a href="https://apps.apple.com/ca/app/proximator/id6745190510" class="inline-block">
                         <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" class="h-10">
                     </a>
                 </div>

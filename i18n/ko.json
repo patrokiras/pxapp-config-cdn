@@ -11,7 +11,7 @@
     "p1": "iPhone/iPad에서 직접 카메라 소스를 재생하고 변환. 작은 프록시로 모바일 편집이나 빠른 전송.",
     "p2": "METAL 엔진 기반의 빠른 하드웨어 가속 변환.",
     "p3": "LUT, 아나모픽 디스퀴즈, 정보 번인 등 다양한 기능.",
-    "badge": "USB-C iPhone & iPad ·  iOS 16.1+ | Open Beta"
+    "badge": "iPhone & iPad ·  iOS 16.1+ | Open Beta"
   },
   "features": {
     "title1": "기능",
@@ -111,7 +111,7 @@
       "coming": "곧 제공",
       "items": {
         "everythingFree": "무료 버전 모든 기능",
-        "watermarkRemoval": "워터마크 제거",
+        "watermarkRemoval": "워터마크 제거/추가",
         "hdUhd": "HD 및 UHD 변환",
         "customLuts": "사용자 정의 LUT 불러오기",
         "future": "향후 신기능 및 코덱 우선 사용"

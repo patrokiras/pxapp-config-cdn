@@ -1,0 +1,122 @@
+{
+  "document": { "title": "Proximator - Convertitore Video Professionale per iPhone & iPad" },
+  "cta": { "download": "Scarica", "downloadnavb": "Scarica" },
+  "hero": {
+    "title1": "Filmati della Fotocamera",
+    "title2": "Convertitore e Player",
+    "title3Accent": "Proprio sul Posto",
+    "p1": "Riproduci e converti i filmati della fotocamera in proxy più piccoli direttamente sul tuo iPhone/iPad.",
+    "p2": "Conversione rapida con accelerazione hardware.",
+    "p3": "LUT, Anamorphic De-squeeze, Overlay Burn-in e altro.",
+    "badge": "iPhone & iPad USB-C · iOS 16.1+ | Open Beta"
+  },
+  "features": {
+    "title1": "Caratteristiche",
+    "titleAccent": "In Evidenza",
+    "f1": {
+      "title": "Accelerazione Hardware",
+      "l1": "Converti filmati fino a",
+      "l1accent": "6× tempo reale",
+      "l1b": "velocità usando",
+      "engine": "Motore METAL",
+      "note": "(La velocità dipende molto dall'hardware, dalla risoluzione di origine e dal codec)"
+    },
+    "f2": {
+      "title": "Esporta con LUT",
+      "l1a": "Carica",
+      "l1accent": "LUT .cube e regola il mix",
+      "l2": "Anteprima ed esporta i tuoi filmati o cattura fotogrammi con LUT."
+    },
+    "f3": {
+      "title": "Anamorphic Desqueeze",
+      "l1a": "Anteprima dei tuoi filmati anamorfici con",
+      "l1accent": "De-Squeeze appropriato (1.25×–2.0×)",
+      "l2": "Cattura fotogrammi con il de-squeeze applicato."
+    },
+    "f4": {
+      "title": "Formati Professionali",
+      "l1a": "Supporto per",
+      "l1b": "e",
+      "l2a": "in",
+      "l2b": "e",
+      "note": "(solo conversione)",
+      "l3": "Accesso diretto ai file da lettori di schede."
+    },
+    "f5": {
+      "title": "Overlay Burn-in",
+      "l1": "Registrazione opzionale delle informazioni chiave del filmato nelle esportazioni, incluso:",
+      "item1": "Nome File Originale",
+      "item2": "Timecode (In Esecuzione)",
+      "item3": "Good-Take",
+      "and": "e",
+      "item4": "Testo Personalizzato Sovrapposto"
+    },
+    "f6": {
+      "title": "Estrazione Fotogrammi",
+      "l1a": "Cattura immagini fisse del",
+      "l1accent": "fotogramma corrente",
+      "l2a": "con",
+      "item1": "LUT",
+      "item2": "Anamorphic De-squeeze",
+      "l3": "mentre scorri i filmati."
+    }
+  },
+  "usecases": {
+    "title1": "Perfetto per",
+    "titleAccent": "Il Tuo Flusso di Lavoro",
+    "u1": {
+      "title": "Plug & Play",
+      "l1a": "Rivedi i filmati con forma d'onda audio direttamente da",
+      "l1accent": "lettori di schede/SSD (USB-C consigliato)",
+      "l2accent": "crea proxy senza un computer"
+    },
+    "u2": {
+      "title": "Salva sul Dispositivo",
+      "l1a": "Salva una versione",
+      "l1accent1": "MOLTO più piccola",
+      "l1b": "del filmato direttamente sul tuo",
+      "l1accent2": "dispositivo mobile con spazio limitato",
+      "l2": "Usali per il montaggio rapido mobile o come filmato finale per i social media."
+    },
+    "u3": {
+      "title": "Lavoro di Squadra Più Veloce",
+      "l1a": "Invia istantaneamente proxy con LUT e Overlay applicati a",
+      "l1accent": "Editor o altri collaboratori",
+      "l2a": "durante la pausa tramite",
+      "l2accent": "AirDrop o archiviazione cloud",
+      "l3": "Il flusso di lavoro di editing dello stesso giorno è ora molto più fluido."
+    }
+  },
+  "pricing": {
+    "title1": "Versione Gratuita",
+    "titleAccent": "Capace.",
+    "free": {
+      "title": "Versione Gratuita",
+      "subtitle": "Perfetta per proxy leggeri",
+      "items": {
+        "unlimited": "Utilizzo illimitato (nessun limite del periodo di prova)",
+        "builtinLuts": "LUT integrati",
+        "extractFrames": "Estrai Fotogrammi, Anamorphic De-squeeze",
+        "sdWatermark": "SD (960×540) con filigrana",
+        "batch": "Elaborazione in Batch",
+        "fastAccel": "Accelerazione hardware veloce"
+      }
+    },
+    "pro": {
+      "title": "Versione Pro",
+      "subtitle": "Per usi professionali",
+      "coming": "Prossimamente",
+      "items": {
+        "everythingFree": "Tutto nella versione gratuita",
+        "watermarkRemoval": "Rimuovere/aggiungere filigrana",
+        "hdUhd": "Conversioni HD e UHD.",
+        "customLuts": "Carica LUT Personalizzati",
+        "future": "Acquisto unico, nessun abbonamento."
+      }
+    }
+  },
+  "footer": {
+    "brand": { "tagline": "Lettore video professionale e convertitore proxy costruito da filmmaker per filmmaker." },
+    "support": { "title": "Supporto", "contact": "Contatta lo Sviluppatore", "privacy": "Informativa sulla Privacy" }
+  }
+}
